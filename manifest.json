@@ -1,0 +1,20 @@
+{
+    "manifest_version": 2,
+    "name": "MoveNewTabs",
+    "description": "Move new tab from pinned tabs to the end.",
+    "author": "Yanlong li",
+    "homepage_url": "https://github.com/YanlongLi/firefox-MoveNewTabs",
+    "background": {
+        "scripts": [
+            "background.js"
+        ]
+    },
+    "icons": {
+        "96": "icon.svg"
+    },
+    "permissions": [
+        "sessions",
+        "tabs"
+    ],
+    "version": "1.0.1"
+}
